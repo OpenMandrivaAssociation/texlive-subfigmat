@@ -46,6 +46,7 @@ to-bottom.
 %{_texmfdistdir}/tex/latex/subfigmat/subfigmat.sty
 %doc %{_texmfdistdir}/doc/latex/subfigmat/subfigmat-doc.pdf
 %doc %{_texmfdistdir}/doc/latex/subfigmat/subfigmat-doc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +57,5 @@ to-bottom.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
