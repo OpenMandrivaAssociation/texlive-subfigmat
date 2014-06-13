@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-subfigmat
 Version:	1.0
-Release:	6
+Release:	7
 Summary:	Automates layout when using the subfigure package
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/subfigmat
