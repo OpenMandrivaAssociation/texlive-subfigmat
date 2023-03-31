@@ -1,6 +1,6 @@
 Name:		texlive-subfigmat
 Version:	20308
-Release:	1
+Release:	2
 Summary:	Automates layout when using the subfigure package
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/subfigmat
