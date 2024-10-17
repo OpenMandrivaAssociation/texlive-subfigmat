@@ -3,7 +3,7 @@ Version:	20308
 Release:	2
 Summary:	Automates layout when using the subfigure package
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/subfigmat
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/subfigmat
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/subfigmat.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/subfigmat.doc.r%{version}.tar.xz
